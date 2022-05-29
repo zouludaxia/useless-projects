@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "《网络安全审查办法》",
+				"enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/list1/list1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "《网络安全审查办法》",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mg/mg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "法条列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/content/content",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "法条随身记",
+		"navigationBarBackgroundColor": "#f0fbff",
+		"backgroundColor": "#000000",
+		"onReachBottomDistance": 0
+	},
+	"tabBar":{
+		"backgroundColor":"#ffeefc",
+		"color":"#6f6f70",
+		"selectedColor":"#f2ea5a",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/tabBar/cameraS.png",
+				"iconPath":"static/tabBar/camera.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/mg/mg",
+				"selectedIconPath":"static/tabBar/stasticS.png",
+				"iconPath":"static/tabBar/stastic.png",
+				"text":"法条列表"
+			},
+			{
+				"pagePath":"pages/message/message",
+				"selectedIconPath":"static/tabBar/resultS.png",
+				"iconPath":"static/tabBar/result.png",
+				"text":"关于"
+			}
+		]
+	}
+}
